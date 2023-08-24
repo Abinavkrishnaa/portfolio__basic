@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #faeded;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #3d0707;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-list li {
+    margin: 0 15px;
+  }
+  
+  .contact-list li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .hero {
+      padding: 3rem 0;
+    }
+  }
+  
